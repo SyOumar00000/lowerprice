@@ -1,0 +1,332 @@
+[
+  {
+    "id_part": 1,
+    "nom_part": "casino mandarine",
+    "ville_part" : "riviera 1",
+    "longitude": "-3.97957",
+    "latitude" : "5.33939",
+    "heureO" : "00h00",
+    "heureF" : "00h00",
+    "telephone" : "22-43-29-02"
+  },
+  {
+    "id_part": 2,
+    "nom_part": "oxygène",
+    "ville_part" : "riviera jardin",
+     "longitude": "-3.97769",
+    "latitude" : "5.34930",
+    "heureO" : "08h00",
+    "heureF" : "20h30",
+    "telephone" : "58-05-21-41"
+  },
+  {
+    "id_part": 3,
+    "nom_part": "le paradix des prix",
+    "ville_part" : "riviera 2",
+     "longitude": "-3.97615",
+    "latitude" : "5.35033",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "52-29-52-20"
+  },
+  {
+    "id_part": 4,
+    "nom_part": "leader price riviera 3",
+    "ville_part" : "riviera 3",
+    "longitude": "-3.96070",
+    "latitude" : "5.35575",
+    "heureO" : "08h30",
+    "heureF" : "20h00",
+    "telephone" : "01-02-03-04"
+  },
+  {
+    "id_part": 5,
+    "nom_part": "shelsea",
+    "ville_part" : "riviera m'badon",
+    "longitude": "-3.95108",
+    "latitude" : "5.32926",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "02-03-04-05"
+  },
+  {
+    "id_part": 6,
+    "nom_part": "cdci riviera 3",
+    "ville_part" : "riviera 3",
+     "longitude": "-3.96568",
+    "latitude" : "5.35832",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "22-49-37-60"
+  },
+  {
+    "id_part": 7,
+    "nom_part": "socoprix",
+    "ville_part" : " riviera 3",
+     "longitude": "-3.95623",
+    "latitude" : "5.36276",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "22-47-19-02"
+  },
+  {
+    "id_part": 8,
+    "nom_part": "king deco",
+    "ville_part" : "riviera 3",
+    "longitude": "-3.95847",
+    "latitude" : "5.36156",
+    "heureO" : "08h30",
+    "heureF" : "19h30",
+    "telephone" : "22-47-69-31"
+  },
+  {
+    "id_part": 9,
+    "nom_part": "king cash palmeraie",
+    "ville_part" : "riviera palmeraie",
+    "longitude": "-3.96018",
+    "latitude" : "5.36772",
+    "heureO" : "09h00",
+    "heureF" : "20h00",
+    "telephone" : "03-04-05-06"
+  },
+  {
+    "id_part": 10,
+    "nom_part": "supermarché rue ministre",
+    "ville_part" : "riviera palmeraie",
+     "longitude": "-3.95280",
+    "latitude" : "5.37455",
+    "heureO" : "08h30",
+    "heureF" : "20h00",
+    "telephone" : "59-00-15-12"
+  },
+  {
+    "id_part": 11,
+    "nom_part": "citidya palmeraie",
+    "ville_part" : "riviera palmeraie",
+     "longitude": "-3.95778",
+    "latitude" : "5.37233",
+    "heureO" : "08h00",
+    "heureF" : "21h00",
+    "telephone" : "23-53-74-00"
+  },
+  {
+    "id_part": 12,
+    "nom_part": "carrefour playce faya",
+    "ville_part" : "riviera faya",
+     "longitude": "-3.93340",
+    "latitude" : "5.37250",
+    "heureO" : "09h00",
+    "heureF" : "21h00",
+    "telephone" : "77-84-33-12"
+  },
+  {
+    "id_part": 13,
+    "nom_part": "casino",
+    "ville_part" : "2 plateaux vallon",
+    "longitude": "-3.99005",
+    "latitude" : "5.35831",
+    "heureO" : "09h00",
+    "heureF" : "20h00",
+    "telephone" : "22-41-30-31"
+  },
+  {
+   "id_part": 14,
+    "nom_part": "cash center",
+    "ville_part" : "2 plateaux vallon",
+    "longitude": "-3.99022",
+    "latitude" : "5.36498",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "22-41-39-06"
+  },
+   {
+   "id_part": 15,
+   "nom_part": "sococe",
+   "ville_part" : "2 plateaux vallon",
+   "longitude": "-3.99039",
+   "latitude" : "5.37541",
+   "heureO" : "08h00",
+   "heureF" : "20h00",
+   "telephone" : "22-41-64-53"
+  },
+   {
+   "id_part": 16,
+    "nom_part": "casino mandarine danga",
+    "ville_part" : "cocody danga",
+    "longitude": "-4.01078",
+    "latitude" : "5.34471",
+     "heureO" : "07h00",
+    "heureF" : "22h00",
+    "telephone" : "21-25-34-16"
+  },
+   {
+   "id_part": 17,
+    "nom_part": "supermarché interprix",
+    "ville_part" : "cocody lycée technique",
+    "longitude": "-4.01118",
+    "latitude" : "5.34447",
+     "heureO" : "08h00",
+    "heureF" : "19h00",
+    "telephone" : "05-06-07-08"
+  },
+   {
+   "id_part": 18,
+    "nom_part": "cash ivoire",
+    "ville_part" : "cocody centre",
+    "longitude": "-4.00033",
+    "latitude" : "5.33693",
+     "heureO" : "08h00",
+    "heureF" : "08h00",
+    "telephone" : "06-39-91-26"
+  },
+   {
+   "id_part": 19,
+    "nom_part": "le bazar de cocody ",
+    "ville_part" : "cocody centre",
+     "longitude": "-3.99977",
+    "latitude" : "5.34428",
+     "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "06-07-08-09"
+  },
+   {
+   "id_part": 20,
+    "nom_part": "l'abidjanaise",
+    "ville_part" : "riviera 2",
+    "longitude": "-3.97651",
+    "latitude" : "5.35103",
+     "heureO" : "06h00",
+    "heureF" : "21h00",
+    "telephone" : "07-08-09-10"
+  },
+  {
+    "id_part": 21,
+    "nom_part": "sococe",
+    "ville_part" : "2 plateaux",
+    "longitude": "-3.99900",
+    "latitude" : "5.37346",
+    "heureO" : "08h00",
+    "heureF" : "21h00",
+    "telephone" : "22-41-92-03"
+  },
+   {
+    "id_part": 22,
+    "nom_part": " suprmarché kangaroo",
+    "ville_part" : "2 plateaux",
+    "longitude": "-3.99784",
+    "latitude" : "5.37068",
+     "heureO" : "07h30",
+    "heureF" : "20h30",
+    "telephone" : "08-09-10-11"
+  },
+  {
+    "id_part": 23,
+    "nom_part": "sicomex",
+    "ville_part" : "angré djibi",
+    "longitude": "-3.97772",
+    "latitude" : "5.39871",
+    "heureO" : "08h00",
+    "heureF" : "21h00",
+    "telephone" : "22-50-16-92"
+  },
+   {
+    "id_part": 24,
+    "nom_part": "citidya angré djibi",
+    "ville_part" : "angre djibi",
+    "longitude": "-3.97845",
+    "latitude" : "5.40397",
+    "heureO" : "08h00",
+    "heureF" : "21h00",
+    "telephone" : "23-53-74-00"
+  },
+  {
+    "id_part": 25,
+    "nom_part": "sococe gros",
+    "ville_part" : "angre chateau",
+    "longitude": "-3.98076",
+    "latitude" : "5.41302",
+    "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "49-70-32-58"
+  },
+   {
+    "id_part": 26,
+    "nom_part": "bon prix belle ville",
+    "ville_part" : "treichville",
+    "longitude": "-3.99611",
+    "latitude" : "5.30355",
+     "heureO" : "08h00",
+    "heureF" : "20h00",
+    "telephone" : "09-10-11-12"
+  },
+  {
+    "id_part": 27,
+    "nom_part": "leader price marcory ",
+    "ville_part" : "marcory",
+    "longitude": "-3.98753",
+    "latitude" : "5.29509",
+    "heureO" : "08h30",
+    "heureF" : "20h30",
+    "telephone" : "10-11-12-13"
+  },
+   {
+    "id_part": 29,
+    "nom_part": "casino mandarine marcory",
+    "ville_part" : "marcory",
+    "longitude": "-3.99438",
+    "latitude" : "5.30794",
+     "heureO" : "08h00",
+    "heureF" : "22h00",
+    "telephone" : "21-26-99-29"
+  },
+  {
+    "id_part": 30,
+    "nom_part": "cash center plateau",
+    "ville_part" : "plateau",
+    "longitude": "-4.01946",
+    "latitude" : "5.32085",
+    "heureO" : "08h30",
+    "heureF" : "19h00",
+    "telephone" : "20-21-34-71"
+  },
+   {
+    "id_part": 31,
+    "nom_part": "bon prix",
+    "ville_part" : "adjamé",
+    "longitude": "-4.02118",
+    "latitude" : "5.35576",
+     "heureO" : "08h00",
+    "heureF" : "19h00",
+    "telephone" : "11-12-13-14"
+  },
+  {
+    "id_part": 32,
+    "nom_part": "carrefour market cosmos",
+    "ville_part" : "yopougon",
+    "longitude": "-4.07478",
+    "latitude" : "5.34961",
+    "heureO" : "09h00",
+    "heureF" : "21h00",
+    "telephone" : "12-13-14-15"
+  },
+   {
+    "id_part": 33,
+    "nom_part": "bon panier",
+    "ville_part" : "yopougon",
+    "longitude": "-4.06740",
+    "latitude" : "5.35217",
+     "heureO" : "08h00",
+    "heureF" : "21h00",
+    "telephone" : "23-53-74-00"
+  },
+  {
+    "id_part": 34,
+    "nom_part": "cdci yopougon cafeier",
+    "ville_part" : "yopougon cafeier",
+    "longitude": "-4.10585",
+    "latitude" : "5.32585",
+    "heureO" : "08h00",
+    "heureF" : "20h30",
+    "telephone" : "13-14-15-16"
+  }
+]

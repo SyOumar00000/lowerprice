@@ -1,0 +1,563 @@
+[
+  {
+    "id_part": 1,
+    "nom_part": "sofitel hotel ivoire",
+    "ville_part" : "cocody blauckauss",
+    "longitude": "-4.00474",
+    "latitude" : "5.32746",
+    "nbre_chambres" : "423",
+    "prix_chambres" : "99400",
+    "telephone" : "22-40-80-00"
+  },
+  {
+    "id_part": 2,
+    "nom_part": "golf hotel",
+    "ville_part" : "riviera 4",
+    "longitude": "-3.97281",
+    "latitude" : "5.33041",
+    "nbre_chambres" : "251",
+    "prix_chambres" : "63676",
+    "telephone" : "22-43-10-44"
+  },
+  {
+    "id_part": 3,
+    "nom_part": "hotel pullman",
+    "ville_part" : "plateau",
+    "longitude": "-4.01384",
+    "latitude" : "5.32302",
+    "nbre_chambres" : "208",
+    "prix_chambres" : "79100",
+    "telephone" : "20-22-11-22"
+  },
+  {
+    "id_part": 4,
+    "nom_part": "hotel novotel",
+    "ville_part" : "plateau",
+    "longitude": "-4.01641",
+    "latitude" : "5.31635",
+    "nbre_chambres" : "223",
+    "prix_chambres" : "60200",
+    "telephone" : "20-31-80-20"
+  },
+  {
+    "id_part": 5,
+    "nom_part": "pharmacie des 2 plateaux",
+    "ville_part" : "2 plateaux",
+    "longitude": "-4.01065",
+    "latitude" : "5.37348",
+    "nbre_chambres" : "185",
+    "prix_chambres" : "36400",
+    "telephone" : "22-41-36-04"
+  },
+  {
+    "id_part": 6,
+    "nom_part": "hotel ibis",
+    "ville_part" : "plateau",
+    "longitude": "-4.02259",
+    "latitude" : "5.32986",
+    "nbre_chambres" : "185",
+    "prix_chambres" : "36400",
+    "telephone" : "20-30-16-16"
+  },
+  {
+    "id_part": 7,
+    "nom_part": "hotel ibis",
+    "ville_part" : "marcory",
+    "longitude": "-4.01985",
+    "latitude" : "5.32729",
+    "nbre_chambres" : "135",
+    "prix_chambres" : "36400",
+    "telephone" : "21-75-63-00"
+  },
+  {
+    "id_part": 8,
+    "nom_part": "hotel tiama",
+    "ville_part" : "plateau",
+    "longitude": "-4.01968",
+    "latitude" : "5.32763",
+    "nbre_chambres" : "138",
+    "prix_chambres" : "66500",
+    "telephone" : "20-31-33-33"
+  },
+  {
+    "id_part": 9,
+    "nom_part": "hotel ivotel",
+    "ville_part" : "plateau",
+    "longitude": "-4.01882",
+    "latitude" : "5.32434",
+    "nbre_chambres" : "148",
+    "prix_chambres" : "64692",
+    "telephone" : "20-33-43-31"
+  },
+  {
+    "id_part": 10,
+    "nom_part": "hotel onomo",
+    "ville_part" : "port-bouet",
+    "longitude": "-3.93745",
+    "latitude" : "5.25811",
+    "nbre_chambres" : "118",
+    "prix_chambres" : "55100",
+    "telephone" : "07-07-20-30"
+  },
+  {
+    "id_part": 11,
+    "nom_part": " grand hotel",
+    "ville_part" : "plateau",
+    "longitude": "-4.00972",
+    "latitude" : "5.32028",
+    "nbre_chambres" : "80",
+    "prix_chambres" : "71957",
+    "telephone" : "20-32-12-00"
+  },
+  {
+    "id_part": 12,
+    "nom_part": "hotel belle cote",
+    "ville_part" : " cocody palmeraie",
+    "longitude": "-3.97041",
+    "latitude" : "5.38780",
+    "nbre_chambres" : "130",
+    "prix_chambres" : "40000",
+    "telephone" : "07-07-65-51"
+  },
+  {
+    "id_part": 13,
+    "nom_part": "hotel horizon",
+    "ville_part" : "cocody centre",
+    "longitude": "-3.99469",
+    "latitude" : "5.33512",
+    "nbre_chambres" : "42",
+    "prix_chambres" : "75000",
+    "telephone" : "22-44-88-89"
+  },
+  {
+   "id_part": 14,
+   "nom_part": "hotel palm-club",
+   "ville_part" : "cocody lycee technique",
+   "longitude": "-4.00285",
+   "latitude" : "5.35391",
+   "nbre_chambres" : "88",
+   "prix_chambres" : "81154",
+   "telephone" : "22-44-44-50"
+  },
+   {
+   "id_part": 15,
+   "nom_part": "hotel le marly",
+    "ville_part" : "plateau",
+    "longitude": "-3.97058",
+    "latitude" : "5.27307",
+    "nbre_chambres" : "33",
+    "prix_chambres" : "100000",
+    "telephone" : "21-21-21-51"
+  },
+   {
+   "id_part": 16,
+   "nom_part": "hotel nouvel pergola",
+   "ville_part" : "zone 4 bietry",
+   "longitude": "-3.98399",
+   "latitude" : "5.28365",
+   "nbre_chambres" : "140",
+   "prix_chambres" : "35000",
+   "telephone" : "21-75-35-01"
+  },
+   {
+   "id_part": 17,
+   "nom_part": " touriste hotel",
+   "ville_part" : "angre 7eme tranche",
+   "longitude": "-3.95441",
+   "latitude" : "5.30019",
+   "nbre_chambres" : "19",
+   "prix_chambres" : "20550",
+   "telephone" : "22-50-65-55"
+  },
+   {
+   "id_part": 18,
+   "nom_part": "ken'ti hotel",
+    "ville_part" : "bietry",
+    "longitude": "-3.97152",
+    "latitude" : "5.27949",
+    "nbre_chambres" : "105",
+    "prix_chambres" : "30400",
+    "telephone" : "08-08-39-80"
+  },
+   {
+   "id_part": 19,
+   "nom_part": "hotel wafou",
+   "ville_part" : "bietry",
+   "longitude": "-3.98174",
+   "latitude" : "5.27606",
+   "nbre_chambres" : "10",
+   "prix_chambres" : "76700",
+   "telephone" : "21-25-62-01"
+  },
+   {
+   "id_part": 20,
+   "nom_part": "golden hotel",
+    "ville_part" : "bietry",
+    "longitude": "-3.97709",
+    "latitude" : "5.28264",
+    "nbre_chambres" : "76",
+    "prix_chambres" : "36400",
+    "telephone" : "21-25-81-81"
+  },
+  {
+    "id_part": 21,
+    "nom_part": "hotel freeman",
+    "ville_part" : "marcory",
+    "longitude": "-3.97079",
+    "latitude" : "5.28707",
+    "nbre_chambres" : "20",
+    "prix_chambres" : "69020",
+    "telephone" : "21-35-62-62"
+  },
+   {
+    "id_part": 22,
+    "nom_part": "complexe hotelier sol beni",
+    "ville_part" : "riviera 4",
+    "longitude": "-3.95184",
+    "latitude" : "5.36887",
+    "nbre_chambres" : "30",
+    "prix_chambres" : "47600",
+    "telephone" : "22-47-98-14"
+  },
+  {
+    "id_part": 23,
+    "nom_part": "hotel songon park",
+    "ville_part" : "yopougon",
+    "longitude": "-4.24518",
+    "latitude" : "5.29192",
+    "nbre_chambres" : "100",
+    "prix_chambres" : "25000",
+    "telephone" : "22-42-82-18"
+  },
+   {
+    "id_part": 24,
+    "nom_part": "complexe hotelier akparo",
+    "ville_part" : "dabou",
+    "longitude": "-4.37911",
+    "latitude" : "5.31860",
+    "nbre_chambres" : "118",
+    "prix_chambres" : "21602",
+    "telephone" : "23-57-24-38"
+  },
+  {
+    "id_part": 25,
+    "nom_part": "n'gbafre",
+    "ville_part" : "dabou",
+    "longitude": "-4.36864",
+    "latitude" : "5.32746",
+    "nbre_chambres" : "33",
+    "prix_chambres" : "15000",
+    "telephone" : "01-02-03-04"
+  },
+   {
+    "id_part": 26,
+    "nom_part": "hotel l'autre rive",
+    "ville_part" : "dabou",
+    "longitude": "-4.38002",
+    "latitude" : "5.30932",
+    "nbre_chambres" : "16",
+    "prix_chambres" : "10000",
+    "telephone" : "49-37-07-38"
+  },
+  {
+    "id_part": 27,
+    "nom_part": "complexe hotelier etiada",
+    "ville_part" : "cocody akouedo",
+    "longitude": ",-3.93760",
+    "latitude" : "5.36621",
+    "nbre_chambres" : "19",
+    "prix_chambres" : "21602",
+    "telephone" : "01-02-03-04"
+  },
+   {
+    "id_part": 29,
+    "nom_part": "cypa hotel",
+    "ville_part" : "cocody",
+    "longitude": "-3.95531",
+    "latitude" : "5.36217",
+    "nbre_chambres" : "39",
+    "prix_chambres" : "18000",
+    "telephone" : "02-60-60-08"
+  },
+  {
+    "id_part": 30,
+    "nom_part": "art-loge hotel",
+    "ville_part" : "cocody angre",
+    "longitude": "-3.99041",
+    "latitude" : "5.40830",
+    "nbre_chambres" : "14",
+    "prix_chambres" : "25000",
+    "telephone" : "22-52-21-19"
+  },
+   {
+    "id_part": 31,
+    "nom_part": "hotel le riyo",
+    "ville_part" : "2 plateaux vallon",
+    "longitude": "-3.98910",
+    "latitude" : "5.36167",
+    "nbre_chambres" : "15",
+    "prix_chambres" : "65000",
+    "telephone" : "22-41-15-15"
+  },
+  {
+    "id_part": 32,
+    "nom_part": "hotel 7eme tranche",
+    "ville_part" : "cocody angre",
+    "longitude": "-3.98141",
+    "latitude" : "5.37680",
+    "nbre_chambres" : "14",
+    "prix_chambres" : "45000",
+    "telephone" : "48-03-41-12"
+  },
+   {
+    "id_part": 33,
+    "nom_part": "residence copa-gabana",
+    "ville_part" : "bingerville",
+    "longitude": "-3.90634",
+    "latitude" : "5.36801",
+    "nbre_chambres" : "26",
+    "prix_chambres" : "75000",
+    "telephone" : "22-40-10-20"
+  },
+  {
+    "id_part": 34,
+    "nom_part": "residence bertille",
+    "ville_part" : "2 plateaux ena",
+    "longitude": "-3.99321",
+    "latitude" : "5.36047",
+    "nbre_chambres" : "22",
+    "prix_chambres" : "38614",
+    "telephone" : "22-41-39-15"
+  },
+   {
+    "id_part": 35,
+    "nom_part": "residence edouard",
+    "ville_part" : "2 plateaux ena",
+    "longitude": "-3.99210",
+    "latitude" : "5.36206",
+    "nbre_chambres" : "15",
+    "prix_chambres" : "65000",
+    "telephone" : "22-40-61-20"
+  },
+  {
+    "id_part": 36,
+    "nom_part": "residence bergemady",
+    "ville_part" : "angre 7eme tranche",
+    "longitude": "-3.98849",
+    "latitude" : "5.38989",
+    "nbre_chambres" : "30",
+    "prix_chambres" : "80000",
+    "telephone" : "07-74-77-41"
+  },
+   {
+    "id_part": 37,
+    "nom_part": "residence emlys",
+    "ville_part" : "2 plateaux las palmas",
+    "longitude": "-3.99855",
+    "latitude" : "5.38203",
+    "nbre_chambres" : "30",
+    "prix_chambres" : "60000",
+    "telephone" : "22-52-52-27"
+  },
+  {
+    "id_part": 38,
+    "nom_part": "residence dippoka",
+    "ville_part" : "angre 8eme tranche",
+    "longitude": "-3.98027",
+    "latitude" : "5.39433",
+    "nbre_chambres" : "37",
+    "prix_chambres" : "65000",
+    "telephone" : "22-52-50-50"
+  },
+   {
+    "id_part": 39,
+    "nom_part": "residence eburnea",
+    "ville_part" : "angre 7eme tranche",
+    "longitude": "-3.98582",
+    "latitude" : "5.38559",
+    "nbre_chambres" : "37",
+    "prix_chambres" : "40500",
+    "telephone" : "22-42-42-50"
+  },
+  {
+    "id_part": 40,
+    "nom_part": "residence emmanuella",
+    "ville_part" : "riviera bonoumin",
+    "longitude": "-3.97891",
+    "latitude" : "5.34580",
+    "nbre_chambres" : "20",
+    "prix_chambres" : "65000",
+    "telephone" : "22-43-12-74"
+  },
+   {
+    "id_part": 41,
+    "nom_part": "residence florhanyas",
+    "ville_part" : "2 plateaux vallon",
+    "longitude": "-3.98572",
+    "latitude" : "5.37103",
+    "nbre_chambres" : "14",
+    "prix_chambres" : "90000",
+    "telephone" : "22-52-82-22"
+  },
+   {
+    "id_part": 42,
+    "nom_part": "residence m'maya",
+    "ville_part" : "riviera bonoumin",
+    "longitude": "-3.97751",
+    "latitude" : "5.35867",
+    "nbre_chambres" : "61",
+    "prix_chambres" : "65000",
+    "telephone" : "22-43-08-94"
+  },
+  {
+    "id_part": 43,
+    "nom_part": "residence maizi's",
+    "ville_part" : "2 plateaux aghien",
+    "longitude": "-3.99250",
+    "latitude" : "5.38542",
+    "nbre_chambres" : "20",
+    "prix_chambres" : "42000",
+    "telephone" : "22-42-46-69"
+  },
+   {
+    "id_part": 44,
+    "nom_part": "residence niable",
+    "ville_part" : "angre 8eme tranche",
+    "longitude": "-3.98205",
+    "latitude" : "5.39538",
+    "nbre_chambres" : "50",
+    "prix_chambres" : "50000",
+    "telephone" : "22-50-59-29"
+  },
+  {
+    "id_part": 45,
+    "nom_part": "residence le jubile",
+    "ville_part" : "angre star 7",
+    "longitude": "-3.99249",
+    "latitude" : "5.40889",
+    "nbre_chambres" : "08",
+    "prix_chambres" : "28500",
+    "telephone" : "77-99-04-55"
+  },
+   {
+    "id_part": 46,
+    "nom_part": "residence les vallons",
+    "ville_part" : "cocody",
+    "longitude": "-3.98977",
+    "latitude" : "5.37320",
+    "nbre_chambres" : "36",
+    "prix_chambres" : "37500",
+    "telephone" : "07-13-52-82"
+  },
+   {
+   "id_part": 47,
+   "nom_part": "residence les orchides",
+   "ville_part" : "marcory zone 4",
+   "longitude": "-3.97307",
+   "latitude" : "5.27067",
+   "nbre_chambres" : "10",
+   "prix_chambres" : "15200",
+   "telephone" : "68-92-04-42"
+  },
+  {
+    "id_part": 48,
+    "nom_part": "residence koreit",
+    "ville_part" : "cocody",
+    "longitude": "-3.98045",
+    "latitude" : "5.40345",
+    "nbre_chambres" : "33",
+    "prix_chambres" : "13000",
+    "telephone" : "22-50-51-95"
+  },
+   {
+    "id_part": 49,
+    "nom_part": "residence sainte anne",
+    "ville_part" : "cocody",
+    "longitude": "-3.98045",
+    "latitude" : "5.40345",
+    "nbre_chambres" : "12",
+    "prix_chambres" : "13000",
+    "telephone" : "22-44-03-68"
+  },
+  {
+    "id_part": 50,
+    "nom_part": "residence aboussouan",
+    "ville_part" : "marcory zone 4",
+    "longitude": "-3.98392",
+    "latitude" : "5.28662",
+    "nbre_chambres" : "30",
+    "prix_chambres" : "12000",
+    "telephone" : "22-42-07-30"
+  },
+   {
+    "id_part": 51,
+    "nom_part": "residence beverly",
+    "ville_part" : "cocody riviera 3",
+    "longitude": "-3.95210",
+    "latitude" : "5.33944",
+    "nbre_chambres" : "14",
+    "prix_chambres" : "78500",
+    "telephone" : "22-47-08-38"
+  },
+  {
+    "id_part": 52,
+    "nom_part": "residence eden park",
+    "ville_part" : "2 plateaux aghien",
+    "longitude": "-3.99838",
+    "latitude" : "5.38182",
+    "nbre_chambres" : "07",
+    "prix_chambres" : "11000",
+    "telephone" : "54-53-11-54"
+  },
+   {
+    "id_part": 53,
+    "nom_part": "residence le griffon",
+    "ville_part" : "2 plateaux vallon",
+    "longitude": "-3.98960",
+    "latitude" : "5.36648",
+    "nbre_chambres" : "11",
+    "prix_chambres" : "55000",
+    "telephone" : "22-41-62-62"
+  },
+  {
+    "id_part": 54,
+    "nom_part": "residence manvy",
+    "ville_part" : "cocody danga",
+    "longitude": "-4.00584",
+    "latitude" : "5.34365",
+    "nbre_chambres" : "10",
+    "prix_chambres" : "42000",
+    "telephone" : "07-80-05-17"
+  },
+   {
+    "id_part": 55,
+    "nom_part": "residence le refuge",
+    "ville_part" : "marcory zone 4",
+    "longitude": "-3.97725",
+    "latitude" : "5.27118",
+    "nbre_chambres" : "10",
+    "prix_chambres" : "21000",
+    "telephone" : "21-25-85-76"
+  },
+  {
+    "id_part": 56,
+    "nom_part": "residence le marly",
+    "ville_part" : "bietry",
+    "longitude": "-3.97058",
+    "latitude" : "5.27259",
+    "nbre_chambres" : "24",
+    "prix_chambres" : "100000",
+    "telephone" : "21-21-21-51"
+  },
+   {
+    "id_part": 57,
+    "nom_part": "capitol hotel",
+    "ville_part" : "cocody riviera 1",
+    "longitude": "-3.97831",
+    "latitude" : "5.34131",
+    "nbre_chambres" : "105",
+    "prix_chambres" : "95000",
+    "telephone" : "22-43-36-36"
+  }
+
+  ]
