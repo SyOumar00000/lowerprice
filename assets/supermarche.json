@@ -7,7 +7,20 @@
     "latitude" : "5.33939",
     "heureO" : "00h00",
     "heureF" : "00h00",
-    "telephone" : "22-43-29-02"
+    "telephone" : "22-43-29-02",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "lays",
+        "prix_article": "505"
+      },
+      {
+        "id_article": 1,
+        "nom_article" : "biscuit",
+        "prix_article": "50"
+      }
+    ]
   },
   {
     "id_part": 2,
@@ -17,7 +30,20 @@
     "latitude" : "5.34930",
     "heureO" : "08h00",
     "heureF" : "20h30",
-    "telephone" : "58-05-21-41"
+    "telephone" : "58-05-21-41",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 2,
+        "nom_article" : "lays",
+        "prix_article": "550"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "biscuit",
+        "prix_article": "30"
+      }
+    ]
   },
   {
     "id_part": 3,
@@ -27,7 +53,20 @@
     "latitude" : "5.35033",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "52-29-52-20"
+    "telephone" : "52-29-52-20",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 3,
+        "nom_article" : "lays",
+        "prix_article": "570"
+      },
+      {
+        "id_article": 3,
+        "nom_article" : "biscuit",
+        "prix_article": "515"
+      }
+    ]
   },
   {
     "id_part": 4,
@@ -37,7 +76,20 @@
     "latitude" : "5.35575",
     "heureO" : "08h30",
     "heureF" : "20h00",
-    "telephone" : "01-02-03-04"
+    "telephone" : "01-02-03-04",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 4,
+        "nom_article" : "lays",
+        "prix_article": "510"
+      },
+      {
+        "id_article": 4,
+        "nom_article" : "biscuit",
+        "prix_article": "535"
+      }
+    ]
   },
   {
     "id_part": 5,
@@ -47,7 +99,20 @@
     "latitude" : "5.32926",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "02-03-04-05"
+    "telephone" : "02-03-04-05",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 5,
+        "nom_article" : "lays",
+        "prix_article": "520"
+      },
+      {
+        "id_article": 5,
+        "nom_article" : "biscuit",
+        "prix_article": "315"
+      }
+    ]
   },
   {
     "id_part": 6,
@@ -57,7 +122,20 @@
     "latitude" : "5.35832",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "22-49-37-60"
+    "telephone" : "22-49-37-60",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 6,
+        "nom_article" : "lays",
+        "prix_article": "525"
+      },
+      {
+        "id_article": 6,
+        "nom_article" : "biscuit",
+        "prix_article": "405"
+      }
+    ]
   },
   {
     "id_part": 7,
@@ -67,7 +145,20 @@
     "latitude" : "5.36276",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "22-47-19-02"
+    "telephone" : "22-47-19-02",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 7,
+        "nom_article" : "lays",
+        "prix_article": "580"
+      },
+      {
+        "id_article": 7,
+        "nom_article" : "biscuit",
+        "prix_article": "895"
+      }
+    ]
   },
   {
     "id_part": 8,
@@ -77,7 +168,20 @@
     "latitude" : "5.36156",
     "heureO" : "08h30",
     "heureF" : "19h30",
-    "telephone" : "22-47-69-31"
+    "telephone" : "22-47-69-31",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 8,
+        "nom_article" : "lays",
+        "prix_article": "585"
+      },
+      {
+        "id_article": 8,
+        "nom_article" : "biscuit",
+        "prix_article": "125"
+      }
+    ]
   },
   {
     "id_part": 9,
@@ -87,7 +191,20 @@
     "latitude" : "5.36772",
     "heureO" : "09h00",
     "heureF" : "20h00",
-    "telephone" : "03-04-05-06"
+    "telephone" : "03-04-05-06",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 9,
+        "nom_article" : "lays",
+        "prix_article": "573"
+      },
+      {
+        "id_article": 9,
+        "nom_article" : "biscuit",
+        "prix_article": "805"
+      }
+    ]
   },
   {
     "id_part": 10,
@@ -97,7 +214,20 @@
     "latitude" : "5.37455",
     "heureO" : "08h30",
     "heureF" : "20h00",
-    "telephone" : "59-00-15-12"
+    "telephone" : "59-00-15-12",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 10,
+        "nom_article" : "lays",
+        "prix_article": "570"
+      },
+      {
+        "id_article": 10,
+        "nom_article" : "biscuit",
+        "prix_article": "545"
+      }
+    ]
   },
   {
     "id_part": 11,
@@ -107,7 +237,20 @@
     "latitude" : "5.37233",
     "heureO" : "08h00",
     "heureF" : "21h00",
-    "telephone" : "23-53-74-00"
+    "telephone" : "23-53-74-00",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 11,
+        "nom_article" : "lays",
+        "prix_article": "599"
+      },
+      {
+        "id_article": 11,
+        "nom_article" : "biscuit",
+        "prix_article": "705"
+      }
+    ]
   },
   {
     "id_part": 12,
@@ -117,7 +260,20 @@
     "latitude" : "5.37250",
     "heureO" : "09h00",
     "heureF" : "21h00",
-    "telephone" : "77-84-33-12"
+    "telephone" : "77-84-33-12",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 12,
+        "nom_article" : "lays",
+        "prix_article": "600"
+      },
+      {
+        "id_article": 12,
+        "nom_article" : "biscuit",
+        "prix_article": "305"
+      }
+    ]
   },
   {
     "id_part": 13,
@@ -127,7 +283,20 @@
     "latitude" : "5.35831",
     "heureO" : "09h00",
     "heureF" : "20h00",
-    "telephone" : "22-41-30-31"
+    "telephone" : "22-41-30-31",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 13,
+        "nom_article" : "lays",
+        "prix_article": "605"
+      },
+      {
+        "id_article": 13,
+        "nom_article" : "biscuit",
+        "prix_article": "955"
+      }
+    ]
   },
   {
    "id_part": 14,
@@ -137,7 +306,20 @@
     "latitude" : "5.36498",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "22-41-39-06"
+    "telephone" : "22-41-39-06",
+    "infousersuper" :" " ,
+    "article": [
+      {
+        "id_article": 14,
+        "nom_article" : "lays",
+        "prix_article": "610"
+      },
+      {
+        "id_article": 14,
+        "nom_article" : "biscuit",
+        "prix_article": "605"
+      }
+    ]
   },
    {
    "id_part": 15,
@@ -147,7 +329,20 @@
    "latitude" : "5.37541",
    "heureO" : "08h00",
    "heureF" : "20h00",
-   "telephone" : "22-41-64-53"
+   "telephone" : "22-41-64-53",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 15,
+         "nom_article" : "lays",
+         "prix_article": "615"
+       },
+       {
+         "id_article": 15,
+         "nom_article" : "biscuit",
+         "prix_article": "1005"
+       }
+     ]
   },
    {
    "id_part": 16,
@@ -157,7 +352,20 @@
     "latitude" : "5.34471",
      "heureO" : "07h00",
     "heureF" : "22h00",
-    "telephone" : "21-25-34-16"
+    "telephone" : "21-25-34-16",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 16,
+         "nom_article" : "lays",
+         "prix_article": "699"
+       },
+       {
+         "id_article": 16,
+         "nom_article" : "biscuit",
+         "prix_article": "1505"
+       }
+     ]
   },
    {
    "id_part": 17,
@@ -167,7 +375,20 @@
     "latitude" : "5.34447",
      "heureO" : "08h00",
     "heureF" : "19h00",
-    "telephone" : "05-06-07-08"
+    "telephone" : "05-06-07-08",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 17,
+         "nom_article" : "lays",
+         "prix_article": "650"
+       },
+       {
+         "id_article": 2,
+         "nom_article" : "biscuit",
+         "prix_article": "200"
+       }
+     ]
   },
    {
    "id_part": 18,
@@ -177,7 +398,20 @@
     "latitude" : "5.33693",
      "heureO" : "08h00",
     "heureF" : "08h00",
-    "telephone" : "06-39-91-26"
+    "telephone" : "06-39-91-26",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 18,
+         "nom_article" : "lays",
+         "prix_article": "662"
+       },
+       {
+         "id_article": 12,
+         "nom_article" : "biscuit",
+         "prix_article": "662"
+       }
+     ]
   },
    {
    "id_part": 19,
@@ -187,7 +421,20 @@
     "latitude" : "5.34428",
      "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "06-07-08-09"
+    "telephone" : "06-07-08-09",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 19,
+         "nom_article" : "lays",
+         "prix_article": "668"
+       },
+       {
+         "id_article": 19,
+         "nom_article" : "biscuit",
+         "prix_article": "668"
+       }
+     ]
   },
    {
    "id_part": 20,
@@ -197,17 +444,43 @@
     "latitude" : "5.35103",
      "heureO" : "06h00",
     "heureF" : "21h00",
-    "telephone" : "07-08-09-10"
+    "telephone" : "07-08-09-10",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 20,
+         "nom_article" : "lays",
+         "prix_article": "670"
+       },
+       {
+         "id_article": 20,
+         "nom_article" : "biscuit",
+         "prix_article": "670"
+       }
+     ]
   },
   {
     "id_part": 21,
-    "nom_part": "sococe",
+    "nom_part": "sococe2",
     "ville_part" : "2 plateaux",
     "longitude": "-3.99900",
     "latitude" : "5.37346",
     "heureO" : "08h00",
     "heureF" : "21h00",
-    "telephone" : "22-41-92-03"
+    "telephone" : "22-41-92-03",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 21,
+        "nom_article" : "lays",
+        "prix_article": "675"
+      },
+      {
+        "id_article": 21,
+        "nom_article" : "biscuit",
+        "prix_article": "675"
+      }
+    ]
   },
    {
     "id_part": 22,
@@ -217,7 +490,20 @@
     "latitude" : "5.37068",
      "heureO" : "07h30",
     "heureF" : "20h30",
-    "telephone" : "08-09-10-11"
+    "telephone" : "08-09-10-11",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 22,
+         "nom_article" : "lays",
+         "prix_article": "680"
+       },
+       {
+         "id_article": 22,
+         "nom_article" : "biscuit",
+         "prix_article": "680"
+       }
+     ]
   },
   {
     "id_part": 23,
@@ -227,7 +513,20 @@
     "latitude" : "5.39871",
     "heureO" : "08h00",
     "heureF" : "21h00",
-    "telephone" : "22-50-16-92"
+    "telephone" : "22-50-16-92",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 23,
+        "nom_article" : "lays",
+        "prix_article": "685"
+      },
+      {
+        "id_article": 23,
+        "nom_article" : "biscuit",
+        "prix_article": "685"
+      }
+    ]
   },
    {
     "id_part": 24,
@@ -237,7 +536,20 @@
     "latitude" : "5.40397",
     "heureO" : "08h00",
     "heureF" : "21h00",
-    "telephone" : "23-53-74-00"
+    "telephone" : "23-53-74-00",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 24,
+         "nom_article" : "lays",
+         "prix_article": "690"
+       },
+       {
+         "id_article": 24,
+         "nom_article" : "biscuit",
+         "prix_article": "695"
+       }
+     ]
   },
   {
     "id_part": 25,
@@ -247,7 +559,20 @@
     "latitude" : "5.41302",
     "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "49-70-32-58"
+    "telephone" : "49-70-32-58",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 25,
+        "nom_article" : "lays",
+        "prix_article": "699"
+      },
+      {
+        "id_article": 29,
+        "nom_article" : "biscuit",
+        "prix_article": "699"
+      }
+    ]
   },
    {
     "id_part": 26,
@@ -257,7 +582,20 @@
     "latitude" : "5.30355",
      "heureO" : "08h00",
     "heureF" : "20h00",
-    "telephone" : "09-10-11-12"
+    "telephone" : "09-10-11-12",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 26,
+         "nom_article" : "lays",
+         "prix_article": "700"
+       },
+       {
+         "id_article": 26,
+         "nom_article" : "biscuit",
+         "prix_article": "700"
+       }
+     ]
   },
   {
     "id_part": 27,
@@ -267,7 +605,20 @@
     "latitude" : "5.29509",
     "heureO" : "08h30",
     "heureF" : "20h30",
-    "telephone" : "10-11-12-13"
+    "telephone" : "10-11-12-13",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 27,
+        "nom_article" : "lays",
+        "prix_article": "705"
+      },
+      {
+        "id_article": 27,
+        "nom_article" : "biscuit",
+        "prix_article": "705"
+      }
+    ]
   },
    {
     "id_part": 29,
@@ -277,7 +628,20 @@
     "latitude" : "5.30794",
      "heureO" : "08h00",
     "heureF" : "22h00",
-    "telephone" : "21-26-99-29"
+    "telephone" : "21-26-99-29",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 29,
+         "nom_article" : "lays",
+         "prix_article": "755"
+       },
+       {
+         "id_article": 29,
+         "nom_article" : "biscuit",
+         "prix_article": "755"
+       }
+     ]
   },
   {
     "id_part": 30,
@@ -287,7 +651,20 @@
     "latitude" : "5.32085",
     "heureO" : "08h30",
     "heureF" : "19h00",
-    "telephone" : "20-21-34-71"
+    "telephone" : "20-21-34-71",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 30,
+        "nom_article" : "lays",
+        "prix_article": "800"
+      },
+      {
+        "id_article": 30,
+        "nom_article" : "biscuit",
+        "prix_article": "588"
+      }
+    ]
   },
    {
     "id_part": 31,
@@ -297,7 +674,20 @@
     "latitude" : "5.35576",
      "heureO" : "08h00",
     "heureF" : "19h00",
-    "telephone" : "11-12-13-14"
+    "telephone" : "11-12-13-14",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 31,
+         "nom_article" : "lays",
+         "prix_article": "850"
+       },
+       {
+         "id_article": 31,
+         "nom_article" : "biscuit",
+         "prix_article": "850"
+       }
+     ]
   },
   {
     "id_part": 32,
@@ -307,7 +697,20 @@
     "latitude" : "5.34961",
     "heureO" : "09h00",
     "heureF" : "21h00",
-    "telephone" : "12-13-14-15"
+    "telephone" : "12-13-14-15",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 32,
+        "nom_article" : "lays",
+        "prix_article": "855"
+      },
+      {
+        "id_article": 32,
+        "nom_article" : "biscuit",
+        "prix_article": "855"
+      }
+    ]
   },
    {
     "id_part": 33,
@@ -317,7 +720,20 @@
     "latitude" : "5.35217",
      "heureO" : "08h00",
     "heureF" : "21h00",
-    "telephone" : "23-53-74-00"
+    "telephone" : "23-53-74-00",
+     "infousersuper" : " ",
+     "article": [
+       {
+         "id_article": 33,
+         "nom_article" : "lays",
+         "prix_article": "455"
+       },
+       {
+         "id_article": 33,
+         "nom_article" : "biscuit",
+         "prix_article": "455"
+       }
+     ]
   },
   {
     "id_part": 34,
@@ -327,6 +743,19 @@
     "latitude" : "5.32585",
     "heureO" : "08h00",
     "heureF" : "20h30",
-    "telephone" : "13-14-15-16"
+    "telephone" : "13-14-15-16",
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 34,
+        "nom_article" : "lays",
+        "prix_article": "400"
+      },
+      {
+        "id_article": 34,
+        "nom_article" : "biscuit",
+        "prix_article": "400"
+      }
+    ]
   }
 ]

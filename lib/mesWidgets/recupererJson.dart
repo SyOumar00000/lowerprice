@@ -1,11 +1,40 @@
 import 'package:flutter/services.dart';
 import 'dart:async';
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
 import 'package:geolocator/geolocator.dart';
 import 'dart:developer';
 import 'package:location/location.dart';
 
+
+
+class ArticleSupermarche {
+  int idArticle;
+  String nomArticle;
+  String prixArticle;
+
+  ArticleSupermarche({this.idArticle, this.nomArticle, this.prixArticle});
+
+  ArticleSupermarche.fromJson(Map<String, dynamic> json) {
+    idArticle = json['id_article'];
+    nomArticle = json['nom_article'];
+    prixArticle = json['prix_article'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['id_article'] = this.idArticle;
+    data['nom_article'] = this.nomArticle;
+    data['prix_article'] = this.prixArticle;
+    return data;
+  }
+
+  @override
+  String toString() {
+    return 'ArticleSupermarche{idArticle: $idArticle, nomArticle: $nomArticle, prixArticle: $prixArticle}';
+  }
+
+
+}
 //je creer un modele qui va décrire la structure de mes données a recuperer dans mon json
 class Pharmacies {
   final int id_part;
@@ -273,11 +302,12 @@ class Supermarches {
   final int id_part;
   final String nom_part;final String ville_part;
   final String longitude;final String latitude;
-  final String heureO;final String heureF;final String telephone;final String infouserpharma;
+  final String heureO;final String heureF;final String telephone; String infousersuper;
+  List<ArticleSupermarche> article;
 
   Supermarches(
       {this.id_part,this.nom_part, this.ville_part,this.longitude, this.latitude, this.heureO,
-        this.heureF, this.telephone, this.infouserpharma});
+        this.heureF, this.telephone, this.infousersuper,this.article});
   factory Supermarches.fromJson(Map<String, dynamic> json) {
     return Supermarches(
       id_part: json['id_part'] as int,
@@ -288,6 +318,12 @@ class Supermarches {
       heureO: json['heureO'] as String,
       heureF: json['heureF'] as String,
       telephone: json['telephone'] as String,
+      infousersuper: json['infousersuper'] as String,
+      article: List<ArticleSupermarche>.from(json["article"]?.map((v)
+    {
+      return ArticleSupermarche.fromJson(v);
+      })?? [])
+
     );
   }
 }
@@ -298,14 +334,11 @@ List<Supermarches> analyseSupermarches(String responseBody) {
 
 }
 //recuperation du fichier et affichage de Restaurants
-Future<List<Supermarches>> fetchSupermarches() async {
+Future<List<Supermarches>> fetchSupermarches(List<Supermarches> supermarcheTrouve) async {
   final response = await rootBundle.loadString('assets/supermarche.json');
-  return supermarchecopy(analyseSupermarches(response));
+  return supermarchecopy(analyseSupermarches(response) ,supermarcheTrouve);
 }
-Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheRepertorie) async {
-  //var lisons = maListe.length;
-  //print("${lisons}");
-  // log('usecopieDebut: $usecopy');
+Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheRepertorie , List<Supermarches> supermarcheTrouve) async {
   Location location;
   LocationData locationData;
   location = new Location();
@@ -313,18 +346,27 @@ Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheReperto
   //je recupère mes coordonnées
   var maLatitude = locationData.latitude;
   var maLongitude = locationData.longitude;
-  var infouserpharma;
+  var infousersuper;
+  //var madistance;
   try {
-    List<Supermarches> supermarcheTrouve = [];
+   // List<Supermarches> supermarcheTrouve = [];
     //parcourir ma liste de pharmacie afin de trouver les pharmacies dans un rayon de 5km
     for (int i = 0; i < supermarcheRepertorie.length; i++) {
       double distancesInMeters = Geolocator.distanceBetween(maLatitude, maLongitude, double.parse(supermarcheRepertorie[i].latitude), double.parse(supermarcheRepertorie[i].longitude));
       var distanceSupermarche = distancesInMeters / 5000;
       if (distancesInMeters <= 5000) {
-        var madistance = (distancesInMeters / 1000);
-       // log('veritable distance: ${madistance.toInt()}');
+        infousersuper = distancesInMeters/1000;
+       // supermarcheTrouve.add(supermarcheTrouve[i].infousersuper);
+        // supermarcheRepertorie.add(supermarcheRepertorie[i].infousersuper);
+        log('veritable distance: ${infousersuper} km');
+        supermarcheRepertorie[i].infousersuper=infousersuper.toString();
+        print("infouser: ${supermarcheRepertorie[i].infousersuper}");
+        supermarcheRepertorie[i].article.forEach((article) {
+          print("les articles: ${article.toString()}");
+         // print("tout: ${supermarcheRepertorie}");
+        });
+       // print("infouser: ${supermarcheTrouve[i].infousersuper}");
         supermarcheTrouve.add(supermarcheRepertorie[i]);
-        infouserpharma.add(madistance.toInt());
       }
     }
     if (supermarcheTrouve.length == 0) {
@@ -335,10 +377,11 @@ Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheReperto
       // var maVariable = supermarcheTrouve[i];
       var size = supermarcheTrouve.length;
       log('liste des supermarches trouvés: $size');
-      log('distance dans tableau: ${infouserpharma}');
+      //log('distance dans tableau: ${infousersuper}');
     }
     supermarcheTrouve.forEach((element) {
       print("element ${element.nom_part} ");
+     // print("element ${element.infousersuper}");
     });
     return supermarcheTrouve;
   } catch (e) {
