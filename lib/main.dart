@@ -1,12 +1,14 @@
-  import 'package:flutter/material.dart';
+//import 'package:bleble/services/location-service.dart';
+import 'package:bleble/screen/recupererJson.dart';
+import 'package:flutter/material.dart';
   import 'package:flutter/services.dart';
   import 'package:focused_menu/modals.dart';
-  import 'mesWidgets/dPharmacie.dart';
-  import 'mesWidgets/dHopital.dart';
-  import 'mesWidgets/dHotel.dart';
-  import 'mesWidgets/dRestaurant.dart';
-  import 'mesWidgets/dSupermarche.dart';
-  import 'mesWidgets/dTransport.dart';
+  import 'screen/pharmacie-screen.dart';
+  import 'screen/hopital-screen.dart';
+  import 'screen/hotel-screen.dart';
+  import 'screen/restaurant-screen.dart';
+  import 'screen/supermarche-screen.dart';
+  import 'screen/transport-screen.dart';
   import 'package:flutter/cupertino.dart';
   import 'package:focused_menu/focused_menu.dart';
 
@@ -49,7 +51,13 @@
     void initState() {
       // TODO: implement initState
       super.initState();
+      getFirstLocation();
       DetailPharmacie();
+      DetailSupermarche();
+      DetailRestaurant();
+      DetailHotel();
+      DetailTransport();
+      DetailHopital();
      // listenToStream();
     }
 
@@ -277,7 +285,7 @@
                               barrierDismissible: false,
                               builder: (BuildContext context){
                                 return new AlertDialog(
-                                  title: Center(child: new Text("youpi!!!", textScaleFactor: 1.5, style: new TextStyle(color: Colors.teal),)),
+                                  title: Center(child: new Text("Halte!!!", textScaleFactor: 1.5, style: new TextStyle(color: Colors.teal),)),
                                   content: new Text("cliquez une seule fois sur le bloc de Transport"
                                       " afin de faire votre recherche sur tout ce qui concerne les Transports!, merci",
                                     style: new TextStyle(color: Colors.lightBlueAccent, fontStyle: FontStyle.italic, fontWeight: FontWeight.w300),),
@@ -356,7 +364,6 @@
         ),
       );
     }
-
   }
 
 

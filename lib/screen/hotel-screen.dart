@@ -1,8 +1,10 @@
+import 'package:bleble/models/hotel-model.dart';
+import 'package:bleble/services/hotel-service.dart';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:geocoder/geocoder.dart';
 import 'package:geolocator/geolocator.dart';
-import 'recupererJson.dart';
+//import 'recupererJson.dart';
 import 'dart:async';
 import 'package:flutter/foundation.dart';
 
@@ -14,7 +16,7 @@ class _DetailHotelPageState extends State<DetailHotel> {
   Location location;
   LocationData locationData;
   Stream<LocationData> stream;
-  Hotels hotels;
+ // Hotels hotels;
   bool isSearching = false;
 
   @override
@@ -89,26 +91,26 @@ class _DetailHotelPageState extends State<DetailHotel> {
     getFirstLocation();
     var userLatitude = locationData.latitude;
     var userLongitude = locationData.longitude;
-    List restaurantRepertorie  = new List<Restaurants>();
-    List restaurantTrouve = new List<Restaurants>();
-    print(restaurantRepertorie);
+    List hotelRepertorie  = new List<Hotels>();
+    List hotelTrouve = new List<Hotels>();
+    print(hotelRepertorie);
 
     //parcourir ma liste de pharmacie afin de trouver les pharmacies dans un rayon de 5km
-    for(int i=0; i<=restaurantRepertorie.length; i++){
-      print(" latitude ${restaurantRepertorie[i].latitude} ... longitude ${restaurantRepertorie[i].longitude}");
-      double distancesInMeters = Geolocator.distanceBetween(userLatitude, userLongitude, restaurantRepertorie[i].latitude, restaurantRepertorie[i].longitude);
+    for(int i=0; i<=hotelRepertorie.length; i++){
+      print(" latitude ${hotelRepertorie[i].latitude} ... longitude ${hotelRepertorie[i].longitude}");
+      double distancesInMeters = Geolocator.distanceBetween(userLatitude, userLongitude, hotelRepertorie[i].latitude, hotelRepertorie[i].longitude);
 
       if(distancesInMeters <= 5000){
-        restaurantTrouve[i] = restaurantRepertorie[i];
-        print("listes des pharmacie trouvées: ${restaurantTrouve}");
+        hotelTrouve[i] = hotelRepertorie[i];
+        print("listes des pharmacie trouvées: ${hotelTrouve}");
       }
     }
-    if(restaurantTrouve.length == 0){
+    if(hotelTrouve.length == 0){
       // aucune pharmacie dans ce rayon
       print("Aucune pharmacie n'a été trouvée");
     } else {
       //un ou plusieurs pharmacies ont été trouvées
-      print("listes des pharmacie trouvées: ${restaurantTrouve}");
+      print("listes des pharmacie trouvées: ${hotelTrouve}");
     }
 
   }

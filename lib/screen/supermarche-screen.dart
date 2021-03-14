@@ -1,3 +1,5 @@
+//import 'package:bleble/models/supermarche-model.dart';
+//import 'package:bleble/services/supermarche-service.dart';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:geocoder/geocoder.dart';
@@ -20,15 +22,13 @@ class _DetailSupermarchePageState extends State<DetailSupermarche> {
   Future<List<Supermarches>> futureSuperMarche;
 bool exec = false;
 
-  void getSupermarche()async{
-
-  }
-
   @override
   void initState() {
-     futureSuperMarche =  fetchSupermarches(supermarcheTrouve);
-     supermarcheTrouve.sort((a, b) => a.article[0].prixArticle.compareTo(b.article[0].prixArticle));
     super.initState();
+    location = new Location();
+    getFirstLocation();
+    futureSuperMarche =  fetchSupermarches(supermarcheTrouve);
+    supermarcheTrouve.sort((a, b) => a.article[0].prixArticle.compareTo(b.article[0].prixArticle));
   }
 
   @override
@@ -40,50 +40,6 @@ bool exec = false;
           title:
           //!isSearching?
               new Text('Mon Supermarche'),
-                //:
-         /* Container(
-            child: TextFormField(
-             controller: articleController,
-              decoration: InputDecoration(
-                hintText:"Que rechercher vous ?",
-                hintStyle: TextStyle(color: Colors.white),
-              ),
-            ),
-          ),*/
-          /*actions: <Widget>[
-            isSearching?
-            Row(
-              children: [
-                new IconButton(
-                    icon: new Icon(Icons.search, color: Colors.white,
-                        size: 25.0),
-                    onPressed: (){
-                      setState(() {
-                        print("clické");
-                        searchArticle(supermarcheTrouve);
-                        print("tailllle ${supermarcheTrouve.length}");
-                      });
-                    }),
-                new IconButton(
-                    icon: new Icon(Icons.cancel, color: Colors.white,
-                        size: 25.0),
-                    onPressed: (){
-                      setState(() {
-                        this.isSearching = false;
-                      });
-                    }),
-              ],
-            ):
-            new IconButton(
-                icon: new Icon(Icons.search, color: Colors.white,
-                    size: 25.0),
-                onPressed: (){
-                  setState(() {
-                    print("gsgsgsggsgsgsgsgsgsg");
-                    this.isSearching = true;
-                  });
-                }),
-          ],*/
         ),
         body: Column(
           children: [

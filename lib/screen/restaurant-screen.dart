@@ -1,3 +1,5 @@
+//import 'package:bleble/models/restaurant-model.dart';
+//import 'package:bleble/services/restaurant-service.dart';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:geocoder/geocoder.dart';
@@ -15,6 +17,15 @@ class _DetailRestaurantPageState extends State<DetailRestaurant> {
   LocationData locationData;
   Stream<LocationData> stream;
   bool isSearching = false;
+
+  @override
+  void initState() {
+    super.initState();
+    location = new Location();
+    getFirstLocation();
+   // futureSuperMarche =  fetchSupermarches(supermarcheTrouve);
+   // supermarcheTrouve.sort((a, b) => a.article[0].prixArticle.compareTo(b.article[0].prixArticle));
+  }
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
