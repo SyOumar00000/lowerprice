@@ -8,8 +8,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "20-21-22-23",
-    "paracetamol" :"200",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "111"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1150"
+      }
+    ]
   },
   {
     "id_part": 2,
@@ -20,8 +31,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "05-05-50-50",
-     "paracetamol" :"199",
-    "efferalgan" :"1005"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "110"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1060"
+      }
+    ]
   },
   {
     "id_part": 3,
@@ -32,8 +54,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-23-24-25",
-     "paracetamol" :"198",
-    "efferalgan" :"1050"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "105"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1005"
+      }
+    ]
   },
   {
     "id_part": 4,
@@ -44,8 +77,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "01-01-01-01",
-     "paracetamol" :"199",
-    "efferalgan" :"1005"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "199"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1020"
+      }
+    ]
   },
   {
     "id_part": 5,
@@ -56,8 +100,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-41-36-04",
-     "paracetamol" :"200",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "99"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1250"
+      }
+    ]
   },
   {
     "id_part": 6,
@@ -68,8 +123,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-41-03-68",
-     "paracetamol" :"189",
-    "efferalgan" :"999"
+     "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "398"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1255"
+      }
+    ]
   },
   {
     "id_part": 7,
@@ -80,8 +146,19 @@
      "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-43-28-44",
-     "paracetamol" :"139",
-    "efferalgan" :"998"
+     "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "100"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1125"
+      }
+    ]
   },
   {
     "id_part": 8,
@@ -92,8 +169,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-54-14-75",
-     "paracetamol" :"200",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "101"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1251"
+      }
+    ]
   },
   {
     "id_part": 9,
@@ -104,8 +192,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-41-36-04",
-     "paracetamol" :"199",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "199"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1000"
+      }
+    ]
   },
   {
     "id_part": 10,
@@ -116,8 +215,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-42-11-06",
-     "paracetamol" :"200",
-    "efferalgan" :"1050"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "200"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1050"
+      }
+    ]
   },
   {
     "id_part": 11,
@@ -128,8 +238,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-41-35-14",
-     "paracetamol" :"205",
-    "efferalgan" :"1003"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "205"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1003"
+      }
+    ]
   },
   {
     "id_part": 12,
@@ -140,8 +261,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-43-93-56",
-     "paracetamol" :"149",
-    "efferalgan" :"1015"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "210"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1110"
+      }
+    ]
   },
   {
     "id_part": 13,
@@ -152,8 +284,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-55-55-40",
-     "paracetamol" :"109",
-    "efferalgan" :"1105"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "109"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1106"
+      }
+    ]
   },
   {
    "id_part": 14,
@@ -164,8 +307,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "19h30",
     "telephone" : "22-48-74-26",
-     "paracetamol" :"110",
-    "efferalgan" :"1010"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "110"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1010"
+      }
+    ]
   },
    {
    "id_part": 15,
@@ -176,8 +330,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-41-36-04",
-     "paracetamol" :"199",
-    "efferalgan" :"1005"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "135"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1058"
+      }
+    ]
   },
    {
    "id_part": 16,
@@ -188,8 +353,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-49-29-01",
-     "paracetamol" :"199",
-    "efferalgan" :"1005"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "230"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1030"
+      }
+    ]
   },
    {
    "id_part": 17,
@@ -200,8 +376,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-41-36-04",
-     "paracetamol" :"209",
-    "efferalgan" :"1055"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "209"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "989"
+      }
+    ]
   },
    {
    "id_part": 18,
@@ -212,8 +399,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "54-49-38-61",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "150"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1115"
+      }
+    ]
   },
    {
    "id_part": 19,
@@ -224,8 +422,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-52-23-76",
-     "paracetamol" :"155",
-    "efferalgan" :"1105"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "211"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1111"
+      }
+    ]
   },
    {
    "id_part": 20,
@@ -236,8 +445,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-49-49-34",
-     "paracetamol" :"250",
-    "efferalgan" :"1215"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "225"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1215"
+      }
+    ]
   },
   {
     "id_part": 21,
@@ -248,8 +468,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-44-24-95",
-     "paracetamol" :"180",
-    "efferalgan" :"1215"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "180"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1205"
+      }
+    ]
   },
    {
     "id_part": 22,
@@ -260,8 +491,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-44-24-95",
-     "paracetamol" :"350",
-    "efferalgan" :"2115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "125"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1015"
+      }
+    ]
   },
   {
     "id_part": 23,
@@ -272,8 +514,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "59-09-02-98",
-     "paracetamol" :"290",
-    "efferalgan" :"1615"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "229"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1219"
+      }
+    ]
   },
    {
     "id_part": 24,
@@ -284,8 +537,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-52-53-00",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "200"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "999"
+      }
+    ]
   },
   {
     "id_part": 25,
@@ -296,8 +560,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "54-12-57-15",
-     "paracetamol" :"260",
-    "efferalgan" :"1700"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "206"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1006"
+      }
+    ]
   },
    {
     "id_part": 26,
@@ -308,8 +583,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-50-10-32",
-     "paracetamol" :"160",
-    "efferalgan" :"1165"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "160"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1165"
+      }
+    ]
   },
   {
     "id_part": 27,
@@ -320,11 +606,22 @@
     "heure-ouverture" : "08h30",
     "heure-fermeture" : "20h00",
     "telephone" : "22-02-01-00",
-     "paracetamol" :"200",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "200"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1200"
+      }
+    ]
   },
    {
-    "id_part": 29,
+    "id_part": 28,
     "nom_part": "pharmacie 7eme tranche",
     "ville_part" : "angre 7eme tranche",
     "longitude": "-3.98880",
@@ -332,8 +629,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-52-56-83",
-     "paracetamol" :"390",
-    "efferalgan" :"1195"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "199"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1005"
+      }
+    ]
   },
   {
     "id_part": 30,
@@ -344,8 +652,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-43-12-73",
-     "paracetamol" :"170",
-    "efferalgan" :"1110"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "170"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1110"
+      }
+    ]
   },
    {
     "id_part": 31,
@@ -356,8 +675,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "71-49-49-37",
-     "paracetamol" :"151",
-    "efferalgan" :"1002"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "151"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1002"
+      }
+    ]
   },
   {
     "id_part": 32,
@@ -368,8 +698,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-00-01-02",
-     "paracetamol" :"112",
-    "efferalgan" :"1135"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "112"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1135"
+      }
+    ]
   },
    {
     "id_part": 33,
@@ -380,8 +721,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "88-88-04-80",
-     "paracetamol" :"250",
-    "efferalgan" :"2115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "130"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1120"
+      }
+    ]
   },
   {
     "id_part": 34,
@@ -392,8 +744,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-03-04-05",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "270"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1170"
+      }
+    ]
   },
    {
     "id_part": 35,
@@ -404,8 +767,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-22-20-20",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "180"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1180"
+      }
+    ]
   },
   {
     "id_part": 36,
@@ -416,8 +790,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-47-56-16",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "170"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1110"
+      }
+    ]
   },
    {
     "id_part": 37,
@@ -428,8 +813,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "21-24-91-22",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "110"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1111"
+      }
+    ]
   },
   {
     "id_part": 38,
@@ -440,8 +836,19 @@
     "heure-ouverture" : "07h00",
     "heure-fermeture" : "18h00",
     "telephone" : "75-55-10-30",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "140"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1140"
+      }
+    ]
   },
    {
     "id_part": 39,
@@ -452,8 +859,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "21-25-45-83",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "200"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1300"
+      }
+    ]
   },
   {
     "id_part": 40,
@@ -464,8 +882,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "75-55-10-30",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "205"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1205"
+      }
+    ]
   },
    {
     "id_part": 41,
@@ -476,8 +905,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "21-35-73-03",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "295"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1295"
+      }
+    ]
   },
    {
     "id_part": 42,
@@ -488,8 +928,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "20-32-12-29",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "165"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1265"
+      }
+    ]
   },
   {
     "id_part": 43,
@@ -500,8 +951,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "18h00",
     "telephone" : "20-32-94-12",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "222"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1222"
+      }
+    ]
   },
    {
     "id_part": 44,
@@ -512,8 +974,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "21-25-45-83",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "244"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1244"
+      }
+    ]
   },
   {
     "id_part": 45,
@@ -524,8 +997,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "75-55-10-30",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "245"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1245"
+      }
+    ]
   },
    {
     "id_part": 46,
@@ -536,8 +1020,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "21-35-73-03",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "146"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "946"
+      }
+    ]
   },
    {
    "id_part": 47,
@@ -548,8 +1043,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "19h30",
     "telephone" : "36-37-38-39",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "247"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1247"
+      }
+    ]
   },
   {
     "id_part": 48,
@@ -560,8 +1066,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "36-86-81-46",
-     "paracetamol" :"120",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "248"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1148"
+      }
+    ]
   },
    {
     "id_part": 49,
@@ -572,8 +1089,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "36-86-81-75",
-     "paracetamol" :"123",
-    "efferalgan" :"1110"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "149"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1149"
+      }
+    ]
   },
   {
     "id_part": 50,
@@ -584,8 +1112,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "80-81-82-83",
-     "paracetamol" :"200",
-    "efferalgan" :"1225"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "150"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1150"
+      }
+    ]
   },
    {
     "id_part": 51,
@@ -596,8 +1135,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "22-52-53-00",
-     "paracetamol" :"650",
-    "efferalgan" :"3110"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "151"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1151"
+      }
+    ]
   },
   {
     "id_part": 52,
@@ -608,8 +1158,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "57-51-04-48",
-     "paracetamol" :"185",
-    "efferalgan" :"1815"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "152"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1152"
+      }
+    ]
   },
    {
     "id_part": 53,
@@ -620,8 +1181,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "20h00",
     "telephone" : "23-57-20-61",
-     "paracetamol" :"085",
-    "efferalgan" :"1035"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "153"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1253"
+      }
+    ]
   },
   {
     "id_part": 54,
@@ -632,8 +1204,19 @@
     "heure-ouverture" : "08h30",
     "heure-fermeture" : "20h00",
     "telephone" : "30-31-32-33",
-     "paracetamol" :"290",
-    "efferalgan" :"1915"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "154"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1254"
+      }
+    ]
   },
    {
     "id_part": 55,
@@ -644,8 +1227,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-28-29-30",
-     "paracetamol" :"130",
-    "efferalgan" :"1200"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "155"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1055"
+      }
+    ]
   },
   {
     "id_part": 56,
@@ -656,8 +1250,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "05-05-05-01",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "156"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1156"
+      }
+    ]
   },
    {
     "id_part": 57,
@@ -668,8 +1273,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h450",
     "telephone" : "70-72-73-74",
-     "paracetamol" :"155",
-    "efferalgan" :"1715"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "157"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1157"
+      }
+    ]
   },
   {
     "id_part": 58,
@@ -680,8 +1296,19 @@
     "heure-ouverture" : "07h45",
     "heure-fermeture" : "19h45",
     "telephone" : "51-93-57-93",
-     "paracetamol" :"850",
-    "efferalgan" :"4115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "158"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1158"
+      }
+    ]
   },
    {
     "id_part": 59,
@@ -692,8 +1319,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h00",
     "telephone" : "88-88-04-80",
-     "paracetamol" :"100",
-    "efferalgan" :"750"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "250"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1200"
+      }
+    ]
   },
   {
     "id_part": 60,
@@ -704,8 +1342,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-42-42-40",
-     "paracetamol" :"90",
-    "efferalgan" :"855"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
    {
     "id_part": 61,
@@ -716,8 +1365,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "22-22-20-20",
-     "paracetamol" :"550",
-    "efferalgan" :"596"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "261"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1261"
+      }
+    ]
   },
   {
     "id_part": 62,
@@ -728,8 +1388,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "19h30",
     "telephone" : "84-88-73-54",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "200"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1200"
+      }
+    ]
   },
    {
     "id_part": 63,
@@ -740,8 +1411,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "19h30",
     "telephone" : "30-64-40-40",
-     "paracetamol" :"650",
-    "efferalgan" :"1105"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "163"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1330"
+      }
+    ]
   },
   {
     "id_part": 64,
@@ -752,8 +1434,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "19h00",
     "telephone" : "31-62-08-51",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "134"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1234"
+      }
+    ]
   },
    {
     "id_part": 65,
@@ -764,8 +1457,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "07-84-12-84",
-     "paracetamol" :"101",
-    "efferalgan" :"1001"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "105"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "999"
+      }
+    ]
   },
   {
     "id_part": 66,
@@ -776,8 +1480,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "32-77-24-62",
-     "paracetamol" :"120",
-    "efferalgan" :"1100"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "266"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1066"
+      }
+    ]
   },
    {
     "id_part": 67,
@@ -788,8 +1503,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "32-77-16-49",
-     "paracetamol" :"250",
-    "efferalgan" :"1815"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "227"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1067"
+      }
+    ]
   },
    {
     "id_part": 68,
@@ -800,8 +1526,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "77-49-50-61",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "188"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1118"
+      }
+    ]
   },
   {
     "id_part": 69,
@@ -812,8 +1549,19 @@
     "heure-ouverture" : "07h30",
     "heure-fermeture" : "20h30",
     "telephone" : "32-77-16-35",
-     "paracetamol" :"350",
-    "efferalgan" :"1615"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
    {
     "id_part": 70,
@@ -824,8 +1572,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h30",
     "telephone" : "32-77-23-16",
-     "paracetamol" :"100",
-    "efferalgan" :"1005"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
   {
     "id_part": 71,
@@ -836,8 +1595,19 @@
     "heure-ouverture" : "08h00",
     "heure-fermeture" : "19h10",
     "telephone" : "55-55-34-93",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
    {
     "id_part": 72,
@@ -848,8 +1618,19 @@
     "heure-ouverture" : "07h45",
     "heure-fermeture" : "19h10",
     "telephone" : "36-86-23-15",
-     "paracetamol" :"150",
-    "efferalgan" :"1115"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
   {
     "id_part": 73,
@@ -860,8 +1641,19 @@
     "heure-ouverture" : "08h05",
     "heure-fermeture" : "19h15",
     "telephone" : "88-04-01-74",
-     "paracetamol" :"100",
-    "efferalgan" :"1000"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   },
   {
     "id_part": 74,
@@ -872,8 +1664,19 @@
     "heure-ouverture" : "07h45",
     "heure-fermeture" : "19h10",
     "telephone" : "36-86-23-15",
-     "paracetamol" :"250",
-    "efferalgan" :"1285"
+    "infousersuper" : " ",
+    "article": [
+      {
+        "id_article": 1,
+        "nom_article" : "paracetamol",
+        "prix_article": "260"
+      },
+      {
+        "id_article": 2,
+        "nom_article" : "efferalgan",
+        "prix_article": "1260"
+      }
+    ]
   }
   
   

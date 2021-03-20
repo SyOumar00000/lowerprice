@@ -6,15 +6,21 @@ import 'package:location/location.dart';
 
 List<Supermarches> analyseSupermarches(String responseBody) {
   final parsed = json.decode(responseBody).cast<Map<String, dynamic>>();
-  return parsed.map<Supermarches>((json) => Supermarches.fromJson(json)).toList();
+  return parsed
+      .map<Supermarches>((json) => Supermarches.fromJson(json))
+      .toList();
+}
 
-}
 //recuperation du fichier et affichage de Restaurants
-Future<List<Supermarches>> fetchSupermarches(List<Supermarches> supermarcheTrouve) async {
+Future<List<Supermarches>> fetchSupermarches(
+    List<Supermarches> supermarcheTrouve) async {
   final response = await rootBundle.loadString('assets/supermarche.json');
-  return supermarchecopy(analyseSupermarches(response) ,supermarcheTrouve);
+  return supermarchecopy(analyseSupermarches(response), supermarcheTrouve);
 }
-Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheRepertorie , List<Supermarches> supermarcheTrouve) async {
+
+Future<List<Supermarches>> supermarchecopy(
+    List<Supermarches> supermarcheRepertorie,
+    List<Supermarches> supermarcheTrouve) async {
   Location location;
   LocationData locationData;
   location = new Location();
@@ -28,14 +34,18 @@ Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheReperto
     // List<Supermarches> supermarcheTrouve = [];
     //parcourir ma liste de pharmacie afin de trouver les pharmacies dans un rayon de 5km
     for (int i = 0; i <= supermarcheRepertorie.length; i++) {
-      double distancesInMeters = Geolocator.distanceBetween(maLatitude, maLongitude, double.parse(supermarcheRepertorie[i].latitude), double.parse(supermarcheRepertorie[i].longitude));
+      double distancesInMeters = Geolocator.distanceBetween(
+          maLatitude,
+          maLongitude,
+          double.parse(supermarcheRepertorie[i].latitude),
+          double.parse(supermarcheRepertorie[i].longitude));
       var distanceSupermarche = distancesInMeters / 5000;
       if (distancesInMeters <= 5000) {
-        infousersuper = distancesInMeters/1000;
+        infousersuper = distancesInMeters / 1000;
         // supermarcheTrouve.add(supermarcheTrouve[i].infousersuper);
         // supermarcheRepertorie.add(supermarcheRepertorie[i].infousersuper);
         //log('veritable distance: ${infousersuper} km');
-        supermarcheRepertorie[i].infousersuper=infousersuper.toString();
+        supermarcheRepertorie[i].infousersuper = infousersuper.toString();
         print("infouser: ${supermarcheRepertorie[i].infousersuper}");
         supermarcheRepertorie[i].article.forEach((article) {
           print("les articles: ${article.toString()}");
@@ -47,12 +57,12 @@ Future<List<Supermarches>> supermarchecopy(List<Supermarches> supermarcheReperto
     }
     if (supermarcheTrouve.length == 0) {
       // aucune pharmacie dans ce rayon
-      print("Aucune pharmacie n'a été trouvée");
+      print("Aucun supermarche n'a été trouvé");
     } else {
       //un ou plusieurs supermarches ont été trouvés
       // var maVariable = supermarcheTrouve[i];
       var size = supermarcheTrouve.length;
-     // log('liste des supermarches trouvés: $size');
+      // log('liste des supermarches trouvés: $size');
       //log('distance dans tableau: ${infousersuper}');
     }
     supermarcheTrouve.forEach((element) {

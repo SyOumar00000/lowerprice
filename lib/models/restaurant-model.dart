@@ -1,4 +1,3 @@
-
 class Restaurants {
   final int id_part;
   final String nom_part;
@@ -8,22 +7,35 @@ class Restaurants {
   final String heureO;
   final String heureF;
   final String telephone;
-
+  String infousersuper;
+  List<ArticleRestaurant> article;
 
   Restaurants(
-      {this.id_part,this.nom_part, this.ville_part,this.longitude, this.latitude, this.heureO, this.heureF, this.telephone});
+      {this.id_part,
+      this.nom_part,
+      this.ville_part,
+      this.longitude,
+      this.latitude,
+      this.heureO,
+      this.heureF,
+      this.telephone,
+      this.infousersuper,
+      this.article});
   factory Restaurants.fromJson(Map<String, dynamic> json) {
     return Restaurants(
-      id_part: json['id_part'] as int,
-      nom_part: json['nom_part'] as String,
-      ville_part: json['ville_part'] as String,
-      longitude: json['longitude'],
-      latitude: json['latitude'],
-      heureO: json['heureO'] as String,
-      heureF: json['heureF'] as String,
-      telephone: json['telephone'] as String,
-
-    );
+        id_part: json['id_part'] as int,
+        nom_part: json['nom_part'] as String,
+        ville_part: json['ville_part'] as String,
+        longitude: json['longitude'],
+        latitude: json['latitude'],
+        heureO: json['heureO'] as String,
+        heureF: json['heureF'] as String,
+        telephone: json['telephone'] as String,
+        infousersuper: json['infousersuper'] as String,
+        article: List<ArticleRestaurant>.from(json["article"]?.map((v) {
+              return ArticleRestaurant.fromJson(v);
+            }) ??
+            []));
   }
 }
 
@@ -32,7 +44,7 @@ class ArticleRestaurant {
   String nomArticle;
   String prixArticle;
 
-  ArticleRestaurant ({this.idArticle, this.nomArticle, this.prixArticle});
+  ArticleRestaurant({this.idArticle, this.nomArticle, this.prixArticle});
 
   ArticleRestaurant.fromJson(Map<String, dynamic> json) {
     idArticle = json['id_article'];
@@ -52,6 +64,4 @@ class ArticleRestaurant {
   String toString() {
     return 'ArticleRestaurant {idArticle: $idArticle, nomArticle: $nomArticle, prixArticle: $prixArticle}';
   }
-
-
 }

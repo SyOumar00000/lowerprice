@@ -12,15 +12,14 @@ List<Pharmacies> analysePharmacies(String responseBody) {
 }
 
 //recuperation du fichier et affichage
-Future<List<Pharmacies>> fetchPharmacies() async {
+Future<List<Pharmacies>> fetchPharmacies(
+    List<Pharmacies> pharmacieTrouve) async {
   final response = await rootBundle.loadString('assets/pharmacie.json');
-  return usecopy(analysePharmacies(response));
+  return pharmaciecopy(analysePharmacies(response), pharmacieTrouve);
 }
 
-Future<List<Pharmacies>> usecopy(List<Pharmacies> pharmacieRepertorie) async {
-//var lisons = maListe.length;
-//print("${lisons}");
-// log('usecopieDebut: $usecopy');
+Future<List<Pharmacies>> pharmaciecopy(List<Pharmacies> pharmacieRepertorie,
+    List<Pharmacies> pharmacieTrouve) async {
   Location location;
   LocationData locationData;
   location = new Location();
@@ -28,15 +27,31 @@ Future<List<Pharmacies>> usecopy(List<Pharmacies> pharmacieRepertorie) async {
 //je recupére mes coordonnées
   var maLatitude = locationData.latitude;
   var maLongitude = locationData.longitude;
+  var infousersuper;
   try {
-    List<Pharmacies> pharmacieTrouve = [];
+    // List<Pharmacies> pharmacieTrouve = [];
 //parcourir ma liste de pharmacie afin de trouver les pharmacies dans un rayon de 5km
     for (int i = 0; i < pharmacieRepertorie.length; i++) {
 // print(" latitude ${pharmacieRepertorie[i].latitude} ... longitude ${pharmacieRepertorie[i].longitude}");
-      double distancesInMeters = Geolocator.distanceBetween(maLatitude, maLongitude, double.parse(pharmacieRepertorie[i].latitude), double.parse(pharmacieRepertorie[i].longitude));
+      double distancesInMeters = Geolocator.distanceBetween(
+          maLatitude,
+          maLongitude,
+          double.parse(pharmacieRepertorie[i].latitude),
+          double.parse(pharmacieRepertorie[i].longitude));
       var distancePharmacie = distancesInMeters / 5000;
 //  log('pharmacie:  $distancePharmacie');
       if (distancesInMeters <= 5000) {
+        infousersuper = distancesInMeters / 1000;
+        // supermarcheTrouve.add(supermarcheTrouve[i].infousersuper);
+        // supermarcheRepertorie.add(supermarcheRepertorie[i].infousersuper);
+        //log('veritable distance: ${infousersuper} km');
+        pharmacieRepertorie[i].infousersuper = infousersuper.toString();
+        print("infouser: ${pharmacieRepertorie[i].infousersuper}");
+        pharmacieRepertorie[i].article.forEach((article) {
+          print("les articles de pharmacie: ${article.toString()}");
+          // print("tout: ${supermarcheRepertorie}");
+        });
+        // print("infouser: ${supermarcheTrouve[i].infousersuper}");
         pharmacieTrouve.add(pharmacieRepertorie[i]);
       }
     }

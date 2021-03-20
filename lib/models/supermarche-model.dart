@@ -3,14 +3,27 @@ import 'package:bleble/services/supermarche-service.dart';
 //je creer un modele qui va décrire la structure de mes données a recuperer dans mon fichier supermarche.json
 class Supermarches {
   final int id_part;
-  final String nom_part;final String ville_part;
-  final String longitude;final String latitude;
-  final String heureO;final String heureF;final String telephone; String infousersuper;
+  final String nom_part;
+  final String ville_part;
+  final String longitude;
+  final String latitude;
+  final String heureO;
+  final String heureF;
+  final String telephone;
+  String infousersuper;
   List<ArticleSupermarche> article;
 
   Supermarches(
-      {this.id_part,this.nom_part, this.ville_part,this.longitude, this.latitude, this.heureO,
-        this.heureF, this.telephone, this.infousersuper,this.article});
+      {this.id_part,
+      this.nom_part,
+      this.ville_part,
+      this.longitude,
+      this.latitude,
+      this.heureO,
+      this.heureF,
+      this.telephone,
+      this.infousersuper,
+      this.article});
   factory Supermarches.fromJson(Map<String, dynamic> json) {
     return Supermarches(
         id_part: json['id_part'] as int,
@@ -22,14 +35,13 @@ class Supermarches {
         heureF: json['heureF'] as String,
         telephone: json['telephone'] as String,
         infousersuper: json['infousersuper'] as String,
-        article: List<ArticleSupermarche>.from(json["article"]?.map((v)
-        {
-          return ArticleSupermarche.fromJson(v);
-        })?? [])
-
-    );
+        article: List<ArticleSupermarche>.from(json["article"]?.map((v) {
+              return ArticleSupermarche.fromJson(v);
+            }) ??
+            []));
   }
 }
+
 class ArticleSupermarche {
   int idArticle;
   String nomArticle;
@@ -55,6 +67,4 @@ class ArticleSupermarche {
   String toString() {
     return 'ArticleSupermarche{idArticle: $idArticle, nomArticle: $nomArticle, prixArticle: $prixArticle}';
   }
-
-
 }

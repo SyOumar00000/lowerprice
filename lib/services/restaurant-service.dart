@@ -7,14 +7,17 @@ import 'package:location/location.dart';
 List<Restaurants> analyseRestaurants(String responseBody) {
   final parsed = json.decode(responseBody).cast<Map<String, dynamic>>();
   return parsed.map<Restaurants>((json) => Restaurants.fromJson(json)).toList();
+}
 
-}
 //recuperation du fichier et affichage de Restaurants
-Future<List<Restaurants>> fetchRestaurants() async {
+Future<List<Restaurants>> fetchRestaurants(
+    List<Restaurants> restaurantTrouve) async {
   final response = await rootBundle.loadString('assets/restaurant.json');
-  return restaurantcopy(analyseRestaurants(response));
+  return restaurantcopy(analyseRestaurants(response), restaurantTrouve);
 }
-Future<List<Restaurants>> restaurantcopy(List<Restaurants> restaurantRepertorie) async {
+
+Future<List<Restaurants>> restaurantcopy(List<Restaurants> restaurantRepertorie,
+    List<Restaurants> restaurantTrouve) async {
   Location location;
   LocationData locationData;
   location = new Location();
@@ -22,15 +25,26 @@ Future<List<Restaurants>> restaurantcopy(List<Restaurants> restaurantRepertorie)
   //je recupére mes coordonnées
   var maLatitude = locationData.latitude;
   var maLongitude = locationData.longitude;
+  var infousersuper;
   try {
-    List<Restaurants> restaurantTrouve = [];
+    //List<Restaurants> restaurantTrouve = [];
     //parcourir ma liste de restaurant afin de trouver les restaurants dans un rayon de 5km
     for (int i = 0; i <= restaurantRepertorie.length; i++) {
       // print(" latitude ${restaurantRepertorie[i].latitude} ... longitude ${restaurantRepertorie[i].longitude}");
-      double distancesInMeters = Geolocator.distanceBetween(maLatitude, maLongitude, double.parse(restaurantRepertorie[i].latitude), double.parse(restaurantRepertorie[i].longitude));
+      double distancesInMeters = Geolocator.distanceBetween(
+          maLatitude,
+          maLongitude,
+          double.parse(restaurantRepertorie[i].latitude),
+          double.parse(restaurantRepertorie[i].longitude));
       var distanceRestaurant = distancesInMeters / 5000;
       //  log('pharmacie:  distanceRestaurant');
       if (distancesInMeters <= 5000) {
+        infousersuper = distancesInMeters / 1000;
+        restaurantRepertorie[i].infousersuper = infousersuper.toString();
+        print("infouser: ${restaurantRepertorie[i].infousersuper}");
+        restaurantTrouve[i].article.forEach((article) {
+          print("les articles restaurant: ${article.toString()}");
+        });
         restaurantTrouve.add(restaurantRepertorie[i]);
       }
     }
@@ -41,7 +55,7 @@ Future<List<Restaurants>> restaurantcopy(List<Restaurants> restaurantRepertorie)
       //un ou plusieurs restaurants ont été trouvées
       // var maVariable = restaurantTrouve[i];
       var size = restaurantTrouve.length;
-     // log('listes des restaurants trouvées: $size');
+      // log('listes des restaurants trouvées: $size');
     }
     restaurantTrouve.forEach((element) {
       print("element ${element.nom_part} ");

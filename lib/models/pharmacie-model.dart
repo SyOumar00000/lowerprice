@@ -9,26 +9,35 @@ class Pharmacies {
   final String heureO;
   final String heureF;
   final String telephone;
-  final String paracetamol;
-  final String efferalgan;
-
-
+  String infousersuper;
+  List<ArticlePharmacie> article;
 
   Pharmacies(
-      {this.id_part,this.nom_part, this.ville_part,this.longitude, this.latitude, this.heureO, this.heureF, this.telephone, this.paracetamol, this.efferalgan});
+      {this.id_part,
+      this.nom_part,
+      this.ville_part,
+      this.longitude,
+      this.latitude,
+      this.heureO,
+      this.heureF,
+      this.telephone,
+      this.infousersuper,
+      this.article});
   factory Pharmacies.fromJson(Map<String, dynamic> json) {
     return Pharmacies(
-      id_part: json['id_part'] as int,
-      nom_part: json['nom_part'] as String,
-      ville_part: json['ville_part'] as String,
-      longitude: json['longitude'],
-      latitude: json['latitude'],
-      heureO: json['heureO'] as String,
-      heureF: json['heureF'] as String,
-      telephone: json['telephone'] as String,
-      paracetamol: json['paracetamol'] as String,
-      efferalgan: json['efferalgan'] as String,
-    );
+        id_part: json['id_part'] as int,
+        nom_part: json['nom_part'] as String,
+        ville_part: json['ville_part'] as String,
+        longitude: json['longitude'],
+        latitude: json['latitude'],
+        heureO: json['heureO'] as String,
+        heureF: json['heureF'] as String,
+        telephone: json['telephone'] as String,
+        infousersuper: json['infousersuper'] as String,
+        article: List<ArticlePharmacie>.from(json["article"]?.map((v) {
+              return ArticlePharmacie.fromJson(v);
+            }) ??
+            []));
   }
 }
 
@@ -37,7 +46,7 @@ class ArticlePharmacie {
   String nomArticle;
   String prixArticle;
 
-  ArticlePharmacie ({this.idArticle, this.nomArticle, this.prixArticle});
+  ArticlePharmacie({this.idArticle, this.nomArticle, this.prixArticle});
 
   ArticlePharmacie.fromJson(Map<String, dynamic> json) {
     idArticle = json['id_article'];
@@ -57,6 +66,4 @@ class ArticlePharmacie {
   String toString() {
     return 'ArticlePharmacie{idArticle: $idArticle, nomArticle: $nomArticle, prixArticle: $prixArticle}';
   }
-
-
 }
